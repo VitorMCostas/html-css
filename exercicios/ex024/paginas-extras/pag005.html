@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <a href="#" onclick="clicou()">Clique aqui</a>
+    <div id="saida"></div>
+
+<h1>links</h1>
+<a href="pag003.html">Página 3</a>
+
+    <script>
+        function clicou() {
+            s = document.getElementById('saida')
+            s.innerHTML += '<p>Você clicou!</p>'
+        }
+    </script>
+</body>
+</html>
